@@ -1,0 +1,24 @@
+# Burbank
+
+> Burbank is a Cardiff and London based payments technology company building card-present authentication for online and remote payments. Its flagship Card Present Over Internet (CPoI) technology lets consumers authenticate anywhere using the globally familiar "tap and PIN" gesture, alongside a SoftPOS product and an Issuer Toolkit for identity verification. Burbank ships a white-label SDK to issuers, acquirers, and payment service providers to reduce online fraud and improve conversion.
+
+Burbank does not publish a public developer API, OpenAPI definition, or developer portal at this time. Integration is delivered as a white-label SDK (mobile library plus containerized backend services) under commercial engagement. Backed by Anthemis, Mouro Capital, and Portfolio Ventures.
+
+## Solutions
+
+- [Card Present Over Internet (CPoI)](https://www.burbankdev.co.uk/): Card-present authentication for online payments using tap and PIN.
+- [SoftPOS](https://www.burbankdev.co.uk/): Software point-of-sale acceptance.
+- [Issuer Toolkit](https://www.burbankdev.co.uk/): Identity verification for card issuers.
+
+## Company
+
+- [Website](https://www.burbankdev.co.uk/)
+- [About](https://www.burbankdev.co.uk/about)
+- [Blog](https://www.burbankdev.co.uk/blog)
+- [Contact](https://www.burbankdev.co.uk/contact)
+- [LinkedIn](https://www.linkedin.com/company/burbank-dev)
+
+## Legal
+
+- [Privacy Policy](https://www.burbankdev.co.uk/privacy-policy)
+- [Terms & Conditions](https://www.burbankdev.co.uk/terms-and-conditions)

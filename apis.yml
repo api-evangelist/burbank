@@ -1,7 +1,24 @@
 aid: burbank
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/burbank.png
 name: Burbank
-description: Burbank is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Burbank is a Cardiff and London based payments technology company that builds
+  card-present authentication for online and remote payments. Its flagship Card Present
+  Over Internet (CPoI) technology lets consumers authenticate anywhere using the globally
+  familiar "tap and PIN" gesture, alongside a SoftPOS product and an Issuer Toolkit for
+  identity verification. Burbank ships a white-label SDK (mobile library plus containerized
+  backend services) to issuers, acquirers, and payment service providers to reduce online
+  fraud and improve conversion. Backed by Anthemis, Mouro Capital, and Portfolio Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/burbank/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Payments
+- Authentication
+- Fintech
+- Card Present
+- SoftPOS
+- Fraud Prevention
+- Identity Verification
 apis: []
+common:
+- type: Website
+  url: https://www.burbankdev.co.uk/
+- type: About
+  url: https://www.burbankdev.co.uk/about
+- type: Blog
+  url: https://www.burbankdev.co.uk/blog
+- type: Support
+  url: https://www.burbankdev.co.uk/contact
+- type: PrivacyPolicy
+  url: https://www.burbankdev.co.uk/privacy-policy
+- type: TermsOfService
+  url: https://www.burbankdev.co.uk/terms-and-conditions
+- type: LinkedIn
+  url: https://www.linkedin.com/company/burbank-dev
+- type: DomainSecurity
+  url: security/burbank-domain-security.yml
+- type: LLMsTxt
+  url: llms/burbank-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
